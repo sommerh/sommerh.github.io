@@ -1,12 +1,11 @@
 // import logo from './logo.svg'; //put photo into src folder and import
 // import './App.css'; //all css in index, use styled components
 
-import AboutMe from './components/AboutMe';
+import AboutMe from './components/About';
 import Home from './components/Home';
-import NavBar from './components/NavBar';
 import Projects from './components/Projects';
 import Skills from './components/Skills';
-import ContactMe from './components/ContactMe';
+import ContactMe from './components/Contact';
 
 function App() {
   return (

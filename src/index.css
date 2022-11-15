@@ -42,3 +42,9 @@ body {
 #fse {
   align-self: center;
 }
+
+/* NAVBAR COMPONENT */
+#navbar {
+  display: flex;
+  flex-direction: row;
+}
