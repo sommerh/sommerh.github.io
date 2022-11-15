@@ -2,7 +2,7 @@ import React from 'react';
 
 const NavBar = () => {
   return (
-    <div id="navbar">
+    <div id="navbar" className="segment">
       <a href="#home">Home/Icon</a>
       <a href="#aboutme">About Me</a>
       <a href="#projects">Projects</a>
