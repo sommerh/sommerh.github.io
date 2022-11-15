@@ -13,7 +13,7 @@ function App() {
     <div>
       {/* how to make sure navbar only shows on some pages*/}
       {/* possibly just put it on each page?? */}
-      <NavBar />
+      {/* <NavBar /> */}
       <Home />
       <AboutMe />
       <Projects />
