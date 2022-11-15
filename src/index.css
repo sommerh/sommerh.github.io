@@ -6,7 +6,7 @@ body {
     sans-serif; */
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  overflow: hidden;
+  /* overflow: hidden; */
 }
 
 /* code {
@@ -22,6 +22,7 @@ body {
 .segment {
   height: 98vh;
   width: 100vw;
+  /* padding: 2vh 5vw 0 5vw; */
   padding-top: 2vh;
 }
 
