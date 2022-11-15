@@ -1,15 +1,24 @@
 // import logo from './logo.svg'; //put photo into src folder and import
 // import './App.css'; //all css in index, use styled components
 
+import AboutMe from './components/AboutMe';
+import Home from './components/Home';
+import NavBar from './components/NavBar';
+import Projects from './components/Projects';
+import Skills from './components/Skills';
+import ContactMe from './components/ContactMe';
+
 function App() {
   return (
     <div>
-      {/* Nav --don't show on home */}
-      {/* Home */}
-      {/* AboutMe */}
-      {/* Projects */}
-      {/* Skills */}
-      {/* ContactMe */}
+      {/* how to make sure navbar only shows on some pages*/}
+      {/* possibly just put it on each page?? */}
+      <NavBar />
+      <Home />
+      <AboutMe />
+      <Projects />
+      <Skills />
+      <ContactMe />
     </div>
   );
 }
