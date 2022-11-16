@@ -1,7 +1,7 @@
 import React from 'react';
 import NavBar from './NavBar';
 
-const ContactMe = () => {
+const Contact = () => {
   return (
     <div id="contact" className="segment">
       <NavBar />
@@ -10,4 +10,4 @@ const ContactMe = () => {
   );
 };
 
-export default ContactMe;
+export default Contact;

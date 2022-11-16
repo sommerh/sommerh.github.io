@@ -1,7 +1,7 @@
 import React from 'react';
 import NavBar from './NavBar';
 
-const AboutMe = () => {
+const About = () => {
   return (
     <div id="about" className="segment">
       <NavBar />
@@ -10,4 +10,4 @@ const AboutMe = () => {
   );
 };
 
-export default AboutMe;
+export default About;
