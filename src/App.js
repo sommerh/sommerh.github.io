@@ -8,8 +8,10 @@ import Skills from './components/Skills';
 import ContactMe from './components/Contact';
 
 function App() {
+  //write function in app to change state isHome to true and call in home
+
   return (
-    <div>
+    <>
       {/* how to make sure navbar only shows on some pages*/}
       {/* possibly just put it on each page?? */}
       {/* <NavBar /> */}
@@ -18,7 +20,7 @@ function App() {
       <Projects />
       <Skills />
       <ContactMe />
-    </div>
+    </>
   );
 }
 
