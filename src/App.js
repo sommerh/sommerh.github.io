@@ -1,11 +1,11 @@
 // import logo from './logo.svg'; //put photo into src folder and import
 // import './App.css'; //all css in index, use styled components
 
-import AboutMe from './components/About';
+import About from './components/About';
 import Home from './components/Home';
 import Projects from './components/Projects';
 import Skills from './components/Skills';
-import ContactMe from './components/Contact';
+import Contact from './components/Contact';
 
 function App() {
   //write function in app to change state isHome to true and call in home
@@ -16,10 +16,10 @@ function App() {
       {/* possibly just put it on each page?? */}
       {/* <NavBar /> */}
       <Home />
-      <AboutMe />
+      <About />
       <Projects />
       <Skills />
-      <ContactMe />
+      <Contact />
     </>
   );
 }
