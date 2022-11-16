@@ -1,21 +1,24 @@
 // import logo from './logo.svg'; //put photo into src folder and import
 // import './App.css'; //all css in index, use styled components
-
+import React, { useState } from 'react';
 import About from './components/About';
 import Home from './components/Home';
+import NavBar from './components/NavBar';
 import Projects from './components/Projects';
 import Skills from './components/Skills';
 import Contact from './components/Contact';
 
 function App() {
-  //write function in app to change state isHome to true and call in home
+  const [isHome, setIsHome] = useState(true);
+
+  const viewHome = () => {
+    setIsHome(true);
+  };
 
   return (
     <>
-      {/* how to make sure navbar only shows on some pages*/}
-      {/* possibly just put it on each page?? */}
-      {/* <NavBar /> */}
-      <Home />
+      {!isHome && <NavBar />}
+      <Home viewHome={viewHome} />
       <About />
       <Projects />
       <Skills />
@@ -25,9 +28,6 @@ function App() {
 }
 
 export default App;
-
-//maybe keep some kind of state that goes to true when component is anything but home.
-//make a useEffect that checks when component changes, and adds or deletes nav
 
 //leaving this hear to review code tag below
 // function App() {
