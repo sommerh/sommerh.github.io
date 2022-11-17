@@ -3,7 +3,17 @@ import React from 'react';
 const Skills = () => {
   return (
     <div id="skills" className="segment">
-      <h1>This is skills</h1>
+      <div id="skills-body">
+        <h1>Skills</h1>
+        <div id="skills-icons">
+          <div>🦙</div>
+          <div>🌲</div>
+          <div>🌼</div>
+          <div>🍄</div>
+          <div>🌍</div>
+          <div>🌈</div>
+        </div>
+      </div>
     </div>
   );
 };

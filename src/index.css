@@ -117,3 +117,8 @@ nav a {
   display: flex;
   flex-flow: row nowrap
 }
+
+/* SKILLS COMPONENT */
+/* want to put skills-body as a flex column, and skills-icon as flex row
+all skill icons will go inside another colored box
+*/
