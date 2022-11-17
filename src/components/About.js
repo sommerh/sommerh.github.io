@@ -15,7 +15,7 @@ const About = () => {
             <b>communication and collaboration</b>
             {`. I enjoyed transferring my`}
             <b>problem-solving, creativity, and mangement skills</b>
-            {`problem-solving, creativity, and mangement skills to this new
+            {` problem-solving, creativity, and mangement skills to this new
             environment. I am excited to contribute to a team at a
             purpose-driven company, where I can bring this all together.`}
           </p>
