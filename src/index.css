@@ -108,7 +108,7 @@ nav a {
   margin: 20vh 4vw 0 4vw;
 }
 
-#projects h1 {
+#projects-body h1 {
   align-self: center;
   font-size: 5vh;
 }
@@ -119,6 +119,25 @@ nav a {
 }
 
 /* SKILLS COMPONENT */
+#skills-body {
+  display: flex;
+  flex-direction: column;
+  margin: 20vh 4vw 0 4vw;
+}
+
+#skills-body h1 {
+  align-self: center;
+}
+
+#skills-icons {
+  display: flex;
+  flex-flow: row wrap;
+}
+
+.icons {
+  height: 8vh;
+  width: auto;
+}
 /* want to put skills-body as a flex column, and skills-icon as flex row
 all skill icons will go inside another colored box
 */
