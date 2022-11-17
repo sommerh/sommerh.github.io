@@ -61,7 +61,7 @@ nav {
   justify-content: space-between;
   position: sticky;
   top: 1vh;
-  margin-bottom: 20vh;
+  /* margin-bottom: 20vh; */
 }
 
 nav a:first-child {
@@ -82,7 +82,7 @@ nav a {
   flex-direction: row;
   align-items: center;
   justify-content: space-between;
-  margin: 0 4vw 0 4vw;
+  margin: 20vh 4vw 0 4vw;
 }
 
 #headshot {
@@ -99,4 +99,21 @@ nav a {
 #about-text h1 {
   align-self: center;
   font-size: 5vh;
+}
+
+/* PROJECTS COMPONENT */
+#projects-body {
+  display: flex;
+  flex-direction: column;
+  margin: 20vh 4vw 0 4vw;
+}
+
+#projects h1 {
+  align-self: center;
+  font-size: 5vh;
+}
+
+#project-icons {
+  display: flex;
+  flex-flow: row nowrap
 }
