@@ -59,13 +59,14 @@ body {
   border-radius: 5vw;
   align-items: center;
   justify-content: space-between;
+  position: sticky;
+  top: 1vh;
 }
 
 #navbar a:first-child {
   flex: 4;
   padding-left: 4vw;
 }
-
 
 #navbar a {
   flex: 1;
@@ -76,6 +77,12 @@ body {
 
 /* ABOUT ME COMPONENT */
 #about {
+  /* display: flex;
+  flex-direction: column;
+  justify-content: center; */
+}
+
+#about-body {
   display: flex;
   flex-direction: row;
   align-items: center;

@@ -1,10 +1,6 @@
-import React, { useEffect } from 'react';
+import React from 'react';
 
-const Home = ({ viewHome }) => {
-  useEffect(() => {
-    viewHome();
-  });
-
+const Home = () => {
   return (
     <div id="home">
       <div id="name">

@@ -1,6 +1,6 @@
 // import logo from './logo.svg'; //put photo into src folder and import
 // import './App.css'; //all css in index, use styled components
-import React, { useState } from 'react';
+import React from 'react';
 import About from './components/About';
 import Home from './components/Home';
 import NavBar from './components/NavBar';
@@ -9,16 +9,10 @@ import Skills from './components/Skills';
 import Contact from './components/Contact';
 
 function App() {
-  const [isHome, setIsHome] = useState(true);
-
-  const viewHome = () => {
-    setIsHome(true);
-  };
-
   return (
     <>
-      {!isHome && <NavBar />}
-      <Home viewHome={viewHome} />
+      <Home />
+      <NavBar />
       <About />
       <Projects />
       <Skills />
