@@ -1,6 +1,8 @@
 import React from 'react';
 
 //TODO: make the section user clicks turn pink
+//OR
+//make name pink and when user hovers increase size
 
 const NavBar = () => {
   return (
