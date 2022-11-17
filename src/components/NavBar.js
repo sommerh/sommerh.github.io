@@ -1,5 +1,7 @@
 import React from 'react';
 
+//TODO: make the section user clicks turn pink
+
 const NavBar = () => {
   return (
     <nav id="navbar">

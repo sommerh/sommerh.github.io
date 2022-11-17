@@ -7,7 +7,7 @@ const About = () => {
       <div id="about-body">
         <img src={headshot} id="headshot" alt="hiking-headshot" />
         <div id="about-text">
-          <p>ABOUT ME</p>
+          <h1>ABOUT ME</h1>
           <p>{`I’m a public health social worker and program manger-turned-software engineer based in New York City. Prior to my shift into this industry, I worked in a healthcare setting with inviduals who have experienced crime. I loved the work I was doing, but found myself being pulled in another direction as I saw the profound impact tech could have on an individual’s wellbeing and quality-of-life.`}</p>
           <p>{`In social work, I learned how to use my set of skills to solve difficult constantly changing problems. I worked with interdisciplinary contacts and thought creatively to find the best solutions for my clients. As a program manager, I supervised and supported the team, managed and facilitated volunteer trainings, and kept a high caseload of my own.`}</p>
           <p>

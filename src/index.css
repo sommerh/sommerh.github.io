@@ -96,7 +96,7 @@ nav a {
   flex-direction: column;
 }
 
-#about-text p:first-child {
+#about-text h1 {
   align-self: center;
   font-size: 5vh;
 }
