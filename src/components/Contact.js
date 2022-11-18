@@ -14,7 +14,7 @@ const Contact = () => {
           <p>placeholder: Message</p>
         </div>
         <div id="contact-text">
-          <h1>I'd love to hear from you</h1>
+          <h1 className="font-link">I'd love to hear from you</h1>
           <p>
             If you want to hear more or chat about my work, feel free to reach
             out on any of the attached links or send me a message here! I'm all

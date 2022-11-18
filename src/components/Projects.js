@@ -4,7 +4,7 @@ const Projects = () => {
   return (
     <div id="projects" className="segment">
       <div id="projects-body">
-        <h1>Projects</h1>
+        <h1 className="font-link">Projects</h1>
         <div id="project-icons">
           <div>project1</div>
           <div>project2</div>
