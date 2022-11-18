@@ -20,27 +20,31 @@ const Contact = () => {
             out on any of the attached links or send me a message here! I'm all
             ears 👂
           </p>
-          {/* <p>
-            If you want to hear more or have any questions about my work, reach
-            me via the contact form or at:
-          </p>
-          <a href="mailto:hannah.j.sommer@gmail.com">
-            hannah.j.sommer@gmail.com
-          </a> */}
           <div id="alt-contacts">
             <div className="contact-icon">
-              <a href="https://www.linkedin.com/in/hannahsommer/">
-                {/* <FaLinkedin /> */}
+              <a
+                href="https://www.linkedin.com/in/hannahsommer/"
+                rel="noreferrer"
+                target="_blank"
+              >
                 <FontAwesomeIcon icon={faLinkedin} size="3x" fixedWidth />
               </a>
             </div>
             <div className="contact-icon">
-              <a href="https://github.com/sommerh">
+              <a
+                href="https://github.com/sommerh"
+                rel="noreferrer"
+                target="_blank"
+              >
                 <FontAwesomeIcon icon={faGithub} size="3x" fixedWidth />
               </a>
             </div>
             <div className="contact-icon">
-              <a href="mailto:hannah.j.sommer@gmail.com">
+              <a
+                href="mailto:hannah.j.sommer@gmail.com"
+                rel="noreferrer"
+                target="_blank"
+              >
                 <FontAwesomeIcon icon={faEnvelope} size="3x" fixedWidth />
               </a>
             </div>

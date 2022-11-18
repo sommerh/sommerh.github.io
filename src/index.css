@@ -17,6 +17,7 @@ body {
 /* .font-link {
   font-family: 'Imbue', serif;
 } */
+/* TODO: decide if want to keep font-family in body or change that to something simpler and add .font-link to imbue sections */
 
 
 .segment {
@@ -129,14 +130,9 @@ nav a {
   margin: 20vh 6vw 0 6vw;
 }
 
-#skills-body h1 {
-  /* align-self: center; */
-}
-
 #skills-icons {
   display: flex;
   flex-flow: row wrap;
-  /* justify-content: space-between; */
 }
 
 .icon-group {
@@ -154,19 +150,40 @@ nav a {
   height: 6vh;
   width: auto;
   padding: 5px;
-  /* border: rgb(237, 233, 233) solid 1px;
-  border-radius: 10px;
-  box-shadow: 2px 2px 2px rgb(222, 220, 220); */
 }
 
 .icon-group p {
   margin: 3px;
-  /* font-family: Verdana, Geneva, Tahoma, sans-serif; */
   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
 
 /* CONTACT COMPONENT */
-  .contact-icon a svg path {
+#contact-body {
+  display: flex;
+  flex-direction: row;
+  margin: 20vh 6vw 0 6vw;
+  justify-content: space-between;
+
+}
+
+#contact-form, #contact-text {
+  height: 65vh;
+  width: 40vw;
+}
+
+#contact-form {
+  border: 2px solid black;
+  /* margin:  */
+}
+
+#alt-contacts {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  margin-top: 7vh;
+}
+
+.contact-icon a svg path {
     color: rgb(48, 48, 48)
   }
