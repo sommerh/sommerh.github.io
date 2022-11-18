@@ -19,6 +19,7 @@ body {
   font-family: 'Imbue', serif;
 }
 /* TODO: decide if want to keep font-link for imbue and  gill sans as general body font */
+/* TODO: After adjusting the home page && if h1 not used, can potentially make all h1 elements 5vh */
 
 
 .segment {
@@ -59,18 +60,21 @@ nav {
   background-color: #56B4AA;
   border-radius: 5vw;
   align-items: center;
-  justify-content: space-between;
+  /* justify-content: space-between; */
   position: sticky;
   top: 1vh;
 }
 
 nav a:first-child {
-  flex: 4;
-  padding-left: 4vw;
+  /* flex: 4; */
+  /* justify-self: flex-start; */
+  margin-right: 22vw;
+  /* padding-left: 4vw; */
 }
 
 nav a {
-  flex: 1;
+  /* flex: 1; */
+  margin: 0 4vw 0 4vw;
   text-decoration: none;
   color: #FFFFFF;
   font-size: 5vh;
@@ -130,6 +134,10 @@ nav a {
   margin: 20vh 6vw 0 6vw;
 }
 
+#skills-body h1 {
+  font-size: 5vh;
+}
+
 #skills-icons {
   display: flex;
   flex-flow: row wrap;
@@ -164,6 +172,10 @@ nav a {
   margin: 20vh 6vw 0 6vw;
   justify-content: space-between;
 
+}
+
+#contact-body h1 {
+  font-size: 5vh;
 }
 
 #contact-form, #contact-text {
