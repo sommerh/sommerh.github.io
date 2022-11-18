@@ -80,7 +80,7 @@ nav a {
   flex-direction: row;
   align-items: center;
   justify-content: space-between;
-  margin: 20vh 4vw 0 4vw;
+  margin: 20vh 6vw 0 6vw;
 }
 
 #headshot {
@@ -89,25 +89,31 @@ nav a {
 }
 
 #about-text {
-  margin-left: 2vw;
+  margin: 0 5vw 0 5vw;
   display: flex;
   flex-direction: column;
 }
 
 #about-text h1 {
-  align-self: center;
+  /* align-self: center; */
   font-size: 5vh;
+  margin: 0
+}
+
+#about-text p {
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-size: 1em;
 }
 
 /* PROJECTS COMPONENT */
 #projects-body {
   display: flex;
   flex-direction: column;
-  margin: 20vh 4vw 0 4vw;
+  margin: 20vh 6vw 0 6vw;
 }
 
 #projects-body h1 {
-  align-self: center;
+  /* align-self: center; */
   font-size: 5vh;
 }
 
@@ -120,11 +126,11 @@ nav a {
 #skills-body {
   display: flex;
   flex-direction: column;
-  margin: 20vh 8vw 0 8vw;
+  margin: 20vh 6vw 0 6vw;
 }
 
 #skills-body h1 {
-  align-self: center;
+  /* align-self: center; */
 }
 
 #skills-icons {
@@ -133,12 +139,28 @@ nav a {
   /* justify-content: space-between; */
 }
 
+.icon-group {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 4vh 4vw 0 0;
+  padding: 10px;
+  border: rgb(237, 233, 233) solid 1px;
+  border-radius: 10px;
+  box-shadow: 2px 2px 2px rgb(222, 220, 220);
+}
+
 .icons {
-  height: 8vh;
+  height: 6vh;
   width: auto;
   padding: 5px;
-  margin: 1vw;
-  border: rgb(218, 214, 214) solid 1px;
+  /* border: rgb(237, 233, 233) solid 1px;
   border-radius: 10px;
-  box-shadow: 2px 2px 2px rgb(204, 202, 202);
+  box-shadow: 2px 2px 2px rgb(222, 220, 220); */
+}
+
+.icon-group p {
+  margin: 3px;
+  /* font-family: Verdana, Geneva, Tahoma, sans-serif; */
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }

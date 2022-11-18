@@ -13,7 +13,7 @@ const About = () => {
           <p>
             {`In Fullstack Academy’s Grace Hopper Program, I learned to build projects from ideation to deployment while implementing Agile methods, involving high levels of `}
             <b>communication and collaboration</b>
-            {`. I enjoyed transferring my`}
+            {`. I enjoyed transferring my `}
             <b>problem-solving, creativity, and mangement skills</b>
             {` problem-solving, creativity, and mangement skills to this new
             environment. I am excited to contribute to a team at a
