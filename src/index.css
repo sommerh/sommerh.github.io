@@ -164,3 +164,9 @@ nav a {
   /* font-family: Verdana, Geneva, Tahoma, sans-serif; */
   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
+
+
+/* CONTACT COMPONENT */
+  .contact-icon a svg path {
+    color: rgb(48, 48, 48)
+  }
