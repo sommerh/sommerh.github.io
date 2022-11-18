@@ -22,7 +22,6 @@ body {
 .segment {
   height: 98vh;
   width: 100vw;
-  /* padding: 2vh 5vw 0 5vw; */
   padding-top: 2vh;
 }
 
@@ -61,7 +60,6 @@ nav {
   justify-content: space-between;
   position: sticky;
   top: 1vh;
-  /* margin-bottom: 20vh; */
 }
 
 nav a:first-child {
@@ -122,7 +120,7 @@ nav a {
 #skills-body {
   display: flex;
   flex-direction: column;
-  margin: 20vh 4vw 0 4vw;
+  margin: 20vh 8vw 0 8vw;
 }
 
 #skills-body h1 {
@@ -132,12 +130,15 @@ nav a {
 #skills-icons {
   display: flex;
   flex-flow: row wrap;
+  /* justify-content: space-between; */
 }
 
 .icons {
   height: 8vh;
   width: auto;
+  padding: 5px;
+  margin: 1vw;
+  border: rgb(218, 214, 214) solid 1px;
+  border-radius: 10px;
+  box-shadow: 2px 2px 2px rgb(204, 202, 202);
 }
-/* want to put skills-body as a flex column, and skills-icon as flex row
-all skill icons will go inside another colored box
-*/
