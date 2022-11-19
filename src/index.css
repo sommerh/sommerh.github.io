@@ -236,10 +236,9 @@ nav a {
   border-top: 3px solid #56B4AA;
   height: 100px;
   padding: 0 12px;
-
 }
 
-.project-bottom p:first-child {
+.project-name {
   font-size: 26px;
   margin: 5px 0 5px 0;
   letter-spacing: 4px;
@@ -247,12 +246,57 @@ nav a {
   color: rgb(0, 0, 0);
 }
 
-.project-bottom p {
+.project-details {
   font-size: 18px;
   margin: 0;
   overflow: break-word;
   color:rgb(48, 48, 48)
 }
+
+#project-back {
+  display: flex;
+  flex-direction: column;
+  align-items: space-between;
+  padding-left: 12px;
+}
+
+.project-icon-container {
+  display: flex;
+  flex-direction: row;
+}
+
+.project-icons {
+  color: black;
+  padding: 15px;
+  margin: 5px;
+}
+
+.show-more {
+  width: 127px;
+  height: 32px;
+  margin: 0 0 15px 12px;
+  background-color: #EBCBD6;
+  border: 1px solid #EBCBD6;
+  border-radius: 5px;
+  font-size: 20px;
+  letter-spacing: 3px;
+  bottom: 5px;
+}
+
+/* .project-bottom p:first-child {
+  font-size: 26px;
+  margin: 5px 0 5px 0;
+  letter-spacing: 4px;
+  border: 0;
+  color: rgb(0, 0, 0);
+} */
+
+/* .project-bottom p {
+  font-size: 18px;
+  margin: 0;
+  overflow: break-word;
+  color:rgb(48, 48, 48)
+} */
 
 /* SKILLS COMPONENT */
 #skills-body {
@@ -345,13 +389,3 @@ nav a {
 
 
 
-.show-more {
-  width: 127px;
-  height: 32px;
-  margin: 0 0 15px 5px;
-  background-color: #EBCBD6;
-  border: 1px solid #EBCBD6;
-  border-radius: 5px;
-  font-size: 20px;
-  letter-spacing: 3px;
-}

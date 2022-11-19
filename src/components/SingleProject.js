@@ -7,11 +7,13 @@ const SingleProject = ({ project }) => {
 
   return (
     <div className="project">
-      {!flipped ? (
-        <SingleProjectFront project={project} />
-      ) : (
-        <SingleProjectBack project={project} />
-      )}
+      <div>
+        {!flipped ? (
+          <SingleProjectFront key={project.id} project={project} />
+        ) : (
+          <SingleProjectBack key={project.id} project={project} />
+        )}
+      </div>
       <button
         className="font-link show-more"
         type="button"
