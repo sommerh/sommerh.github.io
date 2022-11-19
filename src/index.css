@@ -188,7 +188,7 @@ nav a {
 #projects-body {
   display: flex;
   flex-direction: column;
-  margin: 20vh 6vw 0 6vw;
+  margin: 10vh 6vw 0 6vw;
 }
 
 #projects-body h1 {
@@ -198,7 +198,8 @@ nav a {
 
 #project-icons {
   display: flex;
-  flex-flow: row nowrap
+  flex-flow: row wrap;
+  justify-content: space-between;
 }
 
 /* SKILLS COMPONENT */
@@ -288,33 +289,53 @@ nav a {
   position: relative;
 } */
 
+#projects {
+  height: auto;
+  width: 100vw;
+  padding-top: 2vh;
+}
+
 .project {
   width: 20rem;
-}
-.project-bottom {
-  background-color: #EBCBD6;
-  border-top: 2px solid #56B4AA;
-  height: 100px;
-  padding-left: 12px;
-
+  margin-bottom: 4rem;
+  box-shadow: 3px 3px 10px #EBCBD6;
+  /* box-shadow: 1px 1px 6px #EC3A7A; */
 }
 
-.project-bottom p:first-child {
-  font-size: 26px;
-  margin: 5px 0 5px 0;
-  letter-spacing: 4px;
-  border: 0;
-  color: rgb(0, 0, 0);
-}
-
-.project-bottom p {
-  font-size: 18px;
-  margin: 0;
-  overflow: break-word;
-  color:rgb(48, 48, 48)
+.img-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 20rem;
+  height: 204.54px;
+  background-color: rgb(30, 32, 34);
 }
 
 .project-img {
     width: 20rem;
     height: auto;
+  }
+
+  .project-bottom {
+    background-color: #ffffff;
+    /* background-color: #EBCBD6; */
+    border-top: 3px solid #56B4AA;
+    height: 100px;
+    padding-left: 12px;
+
+  }
+
+  .project-bottom p:first-child {
+    font-size: 26px;
+    margin: 5px 0 5px 0;
+    letter-spacing: 4px;
+    border: 0;
+    color: rgb(0, 0, 0);
+  }
+
+  .project-bottom p {
+    font-size: 18px;
+    margin: 0;
+    overflow: break-word;
+    color:rgb(48, 48, 48)
   }
