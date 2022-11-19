@@ -347,7 +347,6 @@ nav a {
   flex-direction: row;
   margin: 20vh 6vw 0 6vw;
   justify-content: space-between;
-
 }
 
 #contact-body h1 {
@@ -361,7 +360,6 @@ nav a {
 
 #contact-form {
   border: 2px solid black;
-  /* margin:  */
 }
 
 #alt-contacts {
@@ -373,4 +371,4 @@ nav a {
 
 .contact-icon a svg path {
     color: rgb(48, 48, 48)
-  }
+}
