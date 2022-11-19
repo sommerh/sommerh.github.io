@@ -32,8 +32,12 @@ body {
   background-color: #56B4AA;
 }
 
-.yellow-bg-dark {
-  color: #F9DD4F;
+.yellow-bg {
+  background-color: #F9DD4F;
+}
+
+.yellow-bg-lt {
+  background-color: #FDF0B0;
 }
 
 .white-txt {

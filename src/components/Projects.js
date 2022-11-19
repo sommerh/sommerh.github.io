@@ -2,7 +2,7 @@ import React from 'react';
 
 const Projects = () => {
   return (
-    <div id="projects" className="segment">
+    <div id="projects" className="segment yellow-bg-lt">
       <div id="projects-body">
         <h1 className="font-link">Projects</h1>
         <div id="project-icons">

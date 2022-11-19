@@ -5,7 +5,7 @@ import { faEnvelope } from '@fortawesome/free-regular-svg-icons';
 
 const Contact = () => {
   return (
-    <div id="contact" className="segment">
+    <div id="contact" className="segment yellow-bg-lt">
       <div id="contact-body">
         <div id="contact-form">
           <p>placeholder: Name</p>

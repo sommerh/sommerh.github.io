@@ -20,7 +20,7 @@ import management from '../images/icons/checklist.png';
 
 const Skills = () => {
   return (
-    <div id="skills" className="segment">
+    <div id="skills" className="segment yellow-bg">
       <div id="skills-body">
         <h1 className="font-link">Skills</h1>
         <div id="skills-icons">

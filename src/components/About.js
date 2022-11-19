@@ -3,7 +3,7 @@ import headshot from '../images/headshot.jpg';
 
 const About = () => {
   return (
-    <div id="about" className="segment">
+    <div id="about" className="segment yellow-bg">
       <div id="about-body">
         <img src={headshot} id="headshot" alt="hiking-headshot" />
         <div id="about-text">
