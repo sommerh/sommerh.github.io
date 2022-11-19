@@ -6,7 +6,7 @@ import React from 'react';
 
 const NavBar = () => {
   return (
-    <nav id="navbar" className="font-link">
+    <nav id="navbar" className="font-link teal-bg">
       <a href="#home" className="pink-txt">
         {'</> HANNAH SOMMER'}
       </a>
