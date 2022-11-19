@@ -2,14 +2,20 @@ import React from 'react';
 
 const Home = () => {
   return (
-    <div id="home" className="font-link">
-      <div id="name">
-        <h1 id="hannah">HANNAH</h1>
-        <h1 id="sommer">SOMMER</h1>
-        <h2 id="fse">full-stack engineer</h2>
-        <button>
-          <a href="#about">Let's Hear More</a>
-        </button>
+    <div id="home" className="segment font-link teal-bg">
+      <div id="name-body">
+        <div className="name">
+          <p className="hannah full-name white-txt">
+            HA<span className="pink-txt">NN</span>AH
+          </p>
+          <p className="sommer full-name white-txt">
+            SO<span className="pink-txt-lt">MM</span>ER
+          </p>
+          <p id="fse">full-stack engineer</p>
+          <button>
+            <a href="#about">Let's Hear More</a>
+          </button>
+        </div>
       </div>
     </div>
   );
