@@ -316,26 +316,26 @@ nav a {
     height: auto;
   }
 
-  .project-bottom {
-    background-color: #ffffff;
-    /* background-color: #EBCBD6; */
-    border-top: 3px solid #56B4AA;
-    height: 100px;
-    padding-left: 12px;
+ .project-bottom {
+  background-color: #ffffff;
+  /* background-color: #EBCBD6; */
+  border-top: 3px solid #56B4AA;
+  height: 100px;
+  padding: 0 12px;
 
-  }
+}
 
-  .project-bottom p:first-child {
-    font-size: 26px;
-    margin: 5px 0 5px 0;
-    letter-spacing: 4px;
-    border: 0;
-    color: rgb(0, 0, 0);
-  }
+.project-bottom p:first-child {
+  font-size: 26px;
+  margin: 5px 0 5px 0;
+  letter-spacing: 4px;
+  border: 0;
+  color: rgb(0, 0, 0);
+}
 
-  .project-bottom p {
-    font-size: 18px;
-    margin: 0;
-    overflow: break-word;
-    color:rgb(48, 48, 48)
-  }
+.project-bottom p {
+  font-size: 18px;
+  margin: 0;
+  overflow: break-word;
+  color:rgb(48, 48, 48)
+}
