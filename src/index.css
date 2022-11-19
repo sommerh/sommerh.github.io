@@ -298,6 +298,7 @@ nav a {
 .project {
   width: 20rem;
   margin-bottom: 4rem;
+  background-color: #FFFFFF;
   box-shadow: 3px 3px 10px #EBCBD6;
   /* box-shadow: 1px 1px 6px #EC3A7A; */
 }
@@ -338,4 +339,15 @@ nav a {
   margin: 0;
   overflow: break-word;
   color:rgb(48, 48, 48)
+}
+
+button {
+  width: 127px;
+  height: 32px;
+  margin: 0 0 15px 5px;
+  background-color: #EBCBD6;
+  border: 1px solid #EBCBD6;
+  border-radius: 5px;
+  font-size: 20px;
+  letter-spacing: 3px;
 }

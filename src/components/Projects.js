@@ -49,7 +49,6 @@ const projects = [
 /*
 TODO:
 add front and back views of projects
-instead of repeating, map projects out to components and pass in props
 add functionality for turning cards
 */
 

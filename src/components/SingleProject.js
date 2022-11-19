@@ -1,18 +1,24 @@
-import React from 'react';
+import React, { useState } from 'react';
+import SingleProjectBack from './SingleProjectBack';
+import SingleProjectFront from './SingleProjectFront';
 
 const SingleProject = ({ project }) => {
-  const { name, image, description, technology, github, site, youtube } =
-    project;
+  const [flipped, setFlipped] = useState(false);
 
   return (
     <div className="project">
-      <div className="img-container">
-        <img src={image} className="project-img" alt="creature-coders" />
-      </div>
-      <div className="project-bottom">
-        <p className="font-link">{name}</p>
-        <p>{description}</p>
-      </div>
+      {!flipped ? (
+        <SingleProjectFront project={project} />
+      ) : (
+        <SingleProjectBack project={project} />
+      )}
+      <button
+        className="font-link show-more"
+        type="button"
+        onClick={() => setFlipped(!flipped)}
+      >
+        {!flipped ? 'details' : 'go back'}
+      </button>
     </div>
   );
 };
