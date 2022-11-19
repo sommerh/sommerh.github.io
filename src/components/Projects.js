@@ -2,6 +2,13 @@ import React from 'react';
 // import creatureCoders from '../images/creature-coders.jpg';
 import creatureCodersTwo from '../images/creature-coders-2.jpg';
 
+/*
+TODO:
+add front and back views of projects
+instead of repeating, map projects out to components and pass in props
+add functionality for turning cards
+*/
+
 const Projects = () => {
   return (
     <div id="projects" className="segment yellow-bg-lt">
