@@ -81,17 +81,12 @@ const projects = [
     youtube: null,
   },
 ];
-/*
-TODO:
-add front and back views of projects
-add functionality for turning cards
-*/
 
 const Projects = () => {
   return (
     <div id="projects" className="segment yellow-bg-lt">
       <div id="projects-body">
-        <h1 className="font-link">Projects</h1>
+        <h1 className="font-link pink-txt">Projects</h1>
         <div id="project-icons">
           {projects.map((project) => (
             <SingleProject key={project.id} project={project} />

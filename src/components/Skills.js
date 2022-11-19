@@ -23,7 +23,7 @@ const Skills = () => {
   return (
     <div id="skills" className="segment yellow-bg">
       <div id="skills-body">
-        <h1 className="font-link">Skills</h1>
+        <h1 className="font-link pink-txt">Skills</h1>
         <div id="skills-icons">
           <div className="icon-group">
             <img src={javascript} className="icons" alt="javascript" />
