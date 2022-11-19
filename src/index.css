@@ -210,7 +210,7 @@ nav a {
 #skills-body {
   display: flex;
   flex-direction: column;
-  margin: 20vh 6vw 0 6vw;
+  margin: 15vh 6vw 0 6vw;
 }
 
 #skills-body h1 {
@@ -220,6 +220,10 @@ nav a {
 #skills-icons {
   display: flex;
   flex-flow: row wrap;
+  padding: 2vh 3vw;
+  background-color: #FFFFFF;
+  border-radius: 2vh;
+  box-shadow: 2px 2px 12px darkgray;
 }
 
 .icon-group {
