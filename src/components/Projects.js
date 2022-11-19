@@ -57,9 +57,6 @@ const Projects = () => {
     <div id="projects" className="segment yellow-bg-lt">
       <div id="projects-body">
         <h1 className="font-link">Projects</h1>
-        <p>
-          <em>click on a project to learn more</em>
-        </p>
         <div id="project-icons">
           {projects.map((project) => (
             <SingleProject project={project} />
