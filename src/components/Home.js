@@ -13,7 +13,9 @@ const Home = () => {
           </p>
           <p id="fse">full-stack engineer</p>
           <button>
-            <a href="#about">Let's Hear More</a>
+            <a href="#about" className="font-link white-txt">
+              Let's Hear More
+            </a>
           </button>
         </div>
       </div>

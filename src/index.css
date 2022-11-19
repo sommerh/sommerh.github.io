@@ -115,6 +115,21 @@ body {
   letter-spacing: 13px;
 }
 
+.name button {
+  border: 2px solid black;
+  width: 270px;
+  /* padding: 0 24px; */
+  background-color: #EC3A7A;
+  align-self: center;
+  box-shadow: 1px 2px 4px rgb(57, 57, 57);
+}
+
+.name button a {
+  text-decoration: none;
+  font-size: 25px;
+  /* padding: 0 24px; */
+}
+
 /* NAVBAR COMPONENT */
 nav {
   display: flex;
