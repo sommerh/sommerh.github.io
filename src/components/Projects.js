@@ -1,4 +1,6 @@
 import React from 'react';
+// import creatureCoders from '../images/creature-coders.jpg';
+import creatureCodersTwo from '../images/creature-coders-2.jpg';
 
 const Projects = () => {
   return (
@@ -6,7 +8,19 @@ const Projects = () => {
       <div id="projects-body">
         <h1 className="font-link">Projects</h1>
         <div id="project-icons">
-          <div>project1</div>
+          <div className="project">
+            {/* <div className="project-top"> */}
+            <img
+              src={creatureCodersTwo}
+              className="project-img"
+              alt="creature-coders"
+            />
+            {/* </div> */}
+            <div className="project-bottom">
+              <p className="font-link">Creature Coders</p>
+              <p>A mobile-first learn-to-code game</p>
+            </div>
+          </div>
           <div>project2</div>
           <div>project3</div>
           <div>project4</div>

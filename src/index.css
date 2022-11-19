@@ -103,12 +103,6 @@ body {
   padding: 0;
 }
 
-/* .full-name:after {
-  content: "";
-  display: inline-block;
-  width: 100%;
-} */
-
 #fse {
   align-self: center;
   font-size: 30px;
@@ -144,10 +138,11 @@ nav {
   top: 1vh;
 }
 
+/* TODO: FIND BETTER WAY TO KEEP NAME TO RIGHTHAND SIDE */
 nav a:first-child {
   /* flex: 4; */
   /* justify-self: flex-start; */
-  margin-right: 22vw;
+  margin-right: 17vw;
   /* padding-left: 4vw; */
 }
 
@@ -280,4 +275,46 @@ nav a {
 
 .contact-icon a svg path {
     color: rgb(48, 48, 48)
+  }
+
+/* TESTING */
+/* .project {} */
+
+/* !!!!!!project top may not be nec. */
+/* .project-top {
+  height: 22rem;
+  width: 20rem;
+  background-color: darkgrey;
+  position: relative;
+} */
+
+.project {
+  width: 20rem;
+}
+.project-bottom {
+  background-color: #EBCBD6;
+  border-top: 2px solid #56B4AA;
+  height: 100px;
+  padding-left: 12px;
+
+}
+
+.project-bottom p:first-child {
+  font-size: 26px;
+  margin: 5px 0 5px 0;
+  letter-spacing: 4px;
+  border: 0;
+  color: rgb(0, 0, 0);
+}
+
+.project-bottom p {
+  font-size: 18px;
+  margin: 0;
+  overflow: break-word;
+  color:rgb(48, 48, 48)
+}
+
+.project-img {
+    width: 20rem;
+    height: auto;
   }

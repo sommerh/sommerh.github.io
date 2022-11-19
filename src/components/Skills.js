@@ -17,6 +17,7 @@ import procreate from '../images/icons/procreate.png';
 import management from '../images/icons/checklist.png';
 
 //change backgound color to white once segment color is changed
+//TODO: make sep. icon component call during a map through arr
 
 const Skills = () => {
   return (
