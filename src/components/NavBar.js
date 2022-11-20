@@ -27,3 +27,14 @@ const NavBar = () => {
 };
 
 export default NavBar;
+
+//NOTES: below code makes name on navbar look like homepage
+{
+  /* <a href="#home" className="white-txt">
+{'</> HA'}
+<span className="pink-txt">NN</span>
+{'AH SO'}
+<span className="pink-txt-lt">MM</span>
+{'ER'}
+</a> */
+}
