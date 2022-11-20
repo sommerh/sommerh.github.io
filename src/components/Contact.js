@@ -24,6 +24,7 @@ const Contact = () => {
             <div className="contact-icon">
               <a
                 href="https://www.linkedin.com/in/hannahsommer/"
+                aria-label="View Hannah's LinkedIn profile"
                 rel="noreferrer"
                 target="_blank"
               >
@@ -33,6 +34,7 @@ const Contact = () => {
             <div className="contact-icon">
               <a
                 href="https://github.com/sommerh"
+                aria-label="View Hannah's GitHub profile"
                 rel="noreferrer"
                 target="_blank"
               >
@@ -42,6 +44,7 @@ const Contact = () => {
             <div className="contact-icon">
               <a
                 href="mailto:hannah.j.sommer@gmail.com"
+                aria-label="Email Hannah"
                 rel="noreferrer"
                 target="_blank"
               >

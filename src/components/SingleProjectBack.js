@@ -17,9 +17,19 @@ const SingleProjectBack = ({ project }) => {
         ))}
       </p>
       <div className="project-icon-container">
-        {github && <SingleProjectIcon link={github} icon={faGithub} />}
-        {site && <SingleProjectIcon link={site} icon={faUpRightFromSquare} />}
-        {youtube && <SingleProjectIcon link={youtube} icon={faYoutube} />}
+        {github && (
+          <SingleProjectIcon link={github} icon={faGithub} access="GitHub" />
+        )}
+        {site && (
+          <SingleProjectIcon
+            link={site}
+            icon={faUpRightFromSquare}
+            access="website"
+          />
+        )}
+        {youtube && (
+          <SingleProjectIcon link={youtube} icon={faYoutube} access="video" />
+        )}
       </div>
     </div>
   );
