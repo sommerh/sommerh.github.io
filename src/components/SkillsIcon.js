@@ -1,10 +1,10 @@
 import React from 'react';
 
-const SkillsIcon = () => {
+const SkillsIcon = ({ skill: { name, icon } }) => {
   return (
     <div className="icon-group">
-      <img src={javascript} className="icons" alt="javascript" />
-      <p>Javascript</p>
+      <img src={icon} className="icons" alt={name} />
+      <p>{name}</p>
     </div>
   );
 };
