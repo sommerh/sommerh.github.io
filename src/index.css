@@ -311,13 +311,14 @@ nav a {
   background-color: #FFFFFF;
   border-radius: 2vh;
   box-shadow: 2px 2px 12px darkgray;
+  margin-bottom: 5vh;
 }
 
 .icon-group {
   display: flex;
   flex-direction: column;
   align-items: center;
-  margin: 4vh 4vw 0 0;
+  margin: 2vh 4vw 2vh 0;
   padding: 10px;
   border: rgb(237, 233, 233) solid 1px;
   border-radius: 10px;
