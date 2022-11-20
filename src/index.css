@@ -23,7 +23,8 @@ body {
 
 
 .segment {
-  height: 98vh;
+  min-height: 98vh;
+  height: auto;
   width: 100vw;
   padding-top: 2vh;
 }
@@ -185,13 +186,6 @@ nav a {
 }
 
 /* PROJECTS COMPONENT */
-#projects {
-  min-height: 98vh;
-  height: auto;
-  width: 100vw;
-  padding-top: 2vh;
-}
-
 #projects-body {
   display: flex;
   flex-direction: column;
