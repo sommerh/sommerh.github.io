@@ -307,6 +307,7 @@ nav a {
 #skills-icons {
   display: flex;
   flex-flow: row wrap;
+  /* justify content either center, space around, or between for resp. */
   padding: 2vh 3vw;
   background-color: #FFFFFF;
   border-radius: 2vh;
