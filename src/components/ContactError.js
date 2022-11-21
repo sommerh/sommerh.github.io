@@ -10,7 +10,7 @@ const ContactError = ({ type }) => {
 
   return (
     <>
-      <p>{message}</p>
+      <p className="error">{message}</p>
     </>
   );
 };

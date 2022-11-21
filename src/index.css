@@ -53,7 +53,7 @@ body {
   color: #EBCBD6;
 }
 
-/* HOME COMPONENT */
+/* HOME */
 /* #name {
   display: flex;
   flex-direction: column;
@@ -125,7 +125,7 @@ body {
   /* padding: 0 24px; */
 }
 
-/* NAVBAR COMPONENT */
+/* NAVBAR */
 nav {
   display: flex;
   flex-direction: row;
@@ -139,7 +139,7 @@ nav {
   top: 1vh;
 }
 
-/* TODO: FIND BETTER WAY TO KEEP NAME TO RIGHTHAND SIDE */
+/* TODO: FIND BETTER WAY TO KEEP NAME TO RIGHTHAND SIDE, maybe padding 17vw on segment? */
 nav a:first-child {
   /* flex: 4; */
   /* justify-self: flex-start; */
@@ -155,7 +155,7 @@ nav a {
   font-size: 5vh;
 }
 
-/* ABOUT ME COMPONENT */
+/* ABOUT ME */
 #about-body {
   display: flex;
   flex-direction: row;
@@ -185,7 +185,7 @@ nav a {
   font-size: 1em;
 }
 
-/* PROJECTS COMPONENT */
+/* PROJECTS */
 #projects-body {
   display: flex;
   flex-direction: column;
@@ -293,7 +293,7 @@ nav a {
   color:rgb(48, 48, 48)
 } */
 
-/* SKILLS COMPONENT */
+/* SKILLS */
 #skills-body {
   display: flex;
   flex-direction: column;
@@ -337,7 +337,7 @@ nav a {
 }
 
 
-/* CONTACT COMPONENT */
+/* CONTACT */
 #contact-body {
   display: flex;
   flex-direction: row;
@@ -356,6 +356,10 @@ nav a {
 
 #contact-form {
   border: 2px solid black;
+}
+
+.required, .error {
+  color: rgb(226, 11, 11);
 }
 
 #alt-contacts {
