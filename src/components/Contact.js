@@ -12,8 +12,8 @@ const Contact = () => {
         <div id="contact-text">
           <h1 className="font-link pink-txt">I'd love to hear from you</h1>
           <p>
-            Reach out on any of the attached links or send me a message here to
-            hear more!
+            Have questions or just want to say hi? Reach out on any of the
+            attached links or send me a message here to hear more!
           </p>
           <div id="alt-contacts">
             <div className="contact-icon">
