@@ -19,11 +19,13 @@ const ContactForm = () => {
     evt.preventDefault();
     if (!toSend.user_name || !toSend.user_email || !toSend.user_message) {
       setError('requirement');
+      console.log('🚨 Missing required input');
     } else if (
       !toSend.user_email.includes('@') ||
       !toSend.user_email.includes('.')
     ) {
       setError('email');
+      console.log('👀 Invalid email address');
     } else {
       try {
         const response = await sendForm(
@@ -39,9 +41,10 @@ const ContactForm = () => {
           user_subject: '',
           user_message: '',
         });
+        setError('');
       } catch (err) {
         setError('send');
-        console.log('👀 Message failed to send. . .', err);
+        console.log('📪 Message failed to send. . .', err);
       }
     }
   };
@@ -78,9 +81,10 @@ const ContactForm = () => {
         <label>
           Message<span className="required">*</span>{' '}
         </label>
-        <input
+        <textarea
           type="textarea"
           name="user_message"
+          id="contact-message"
           value={toSend.user_message}
           onChange={handleClick}
         />
