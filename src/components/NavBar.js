@@ -1,6 +1,6 @@
 import React from 'react';
 
-//TODO: make the section user clicks turn pink
+//TODO: make the section user clicks turn pink (window.location.href)
 //OR
 //make name pink and when user hovers increase size
 

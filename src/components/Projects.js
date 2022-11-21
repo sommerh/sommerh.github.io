@@ -98,3 +98,5 @@ const Projects = () => {
 };
 
 export default Projects;
+
+//TODO: get rid of go back button and change it to an x on the box

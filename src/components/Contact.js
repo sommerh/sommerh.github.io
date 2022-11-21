@@ -2,17 +2,13 @@ import React from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faLinkedin, faGithub } from '@fortawesome/free-brands-svg-icons';
 import { faEnvelope } from '@fortawesome/free-regular-svg-icons';
+import ContactForm from './ContactForm';
 
 const Contact = () => {
   return (
     <div id="contact" className="segment yellow-bg-lt">
       <div id="contact-body">
-        <div id="contact-form">
-          <p>placeholder: Name</p>
-          <p>placeholder: Email</p>
-          <p>placeholder: Subject</p>
-          <p>placeholder: Message</p>
-        </div>
+        <ContactForm />
         <div id="contact-text">
           <h1 className="font-link pink-txt">I'd love to hear from you</h1>
           <p>
