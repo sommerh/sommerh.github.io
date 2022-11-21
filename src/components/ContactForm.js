@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import { sendForm } from 'emailjs-com';
+import ContactError from './ContactError';
 
 const ContactForm = () => {
   const [toSend, setToSend] = useState({
@@ -8,6 +9,7 @@ const ContactForm = () => {
     user_subject: '',
     user_message: '',
   });
+  const [error, setError] = useState('');
 
   const handleClick = (evt) => {
     setToSend({ ...toSend, [evt.target.name]: evt.target.value });
@@ -15,14 +17,13 @@ const ContactForm = () => {
 
   const handleSubmit = async (evt) => {
     evt.preventDefault();
-    //send via emailJS
     if (!toSend.user_name || !toSend.user_email || !toSend.user_message) {
-      //alert 'please make sure name, email, and message are filled out'
+      setError('requirement');
     } else if (
       !toSend.user_email.includes('@') ||
       !toSend.user_email.includes('.')
     ) {
-      //alert 'please enter a valid email address
+      setError('email');
     } else {
       try {
         const response = await sendForm(
@@ -39,7 +40,7 @@ const ContactForm = () => {
           user_message: '',
         });
       } catch (err) {
-        //alert 'Message did not send. Please try again
+        setError('send');
         console.log('👀 Message failed to send. . .', err);
       }
     }
@@ -47,6 +48,7 @@ const ContactForm = () => {
 
   return (
     <div id="contact-form">
+      {error && <ContactError type={error} />}
       <form onSubmit={handleSubmit}>
         <label>
           Full name<span className="required">*</span>{' '}
@@ -61,7 +63,7 @@ const ContactForm = () => {
           Email<span className="required">*</span>{' '}
         </label>
         <input
-          type="email"
+          type="text"
           name="user_email"
           value={toSend.user_email}
           onChange={handleClick}
