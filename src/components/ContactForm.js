@@ -10,6 +10,7 @@ const ContactForm = () => {
     user_message: '',
   });
   const [error, setError] = useState('');
+  const [sent, setSent] = useState(false);
 
   const handleClick = (evt) => {
     setToSend({ ...toSend, [evt.target.name]: evt.target.value });
@@ -35,6 +36,7 @@ const ContactForm = () => {
           '3hGwrodFC95ySS1Gm'
         );
         console.log('📬 SUCCESS!', response.status, response.text);
+        setSent(true);
         setToSend({
           user_name: '',
           user_email: '',
@@ -52,6 +54,12 @@ const ContactForm = () => {
   return (
     <div id="contact-form">
       {error && <ContactError type={error} />}
+      {sent && (
+        <p>
+          <b>Thank you for your message!</b> I will get back to you within 1-3
+          business days.
+        </p>
+      )}
       <form onSubmit={handleSubmit}>
         <label>
           Full name<span className="required">*</span>{' '}
