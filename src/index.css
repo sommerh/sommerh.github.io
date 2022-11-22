@@ -453,9 +453,26 @@ nav a {
   }
 }
 
-@media screen and (max-width: 720px) {
+@media screen and (max-width: 730px) {
   /* CONTACT */
   #contact-body {
-    flex-direction: column;
+    flex-direction: column-reverse;
+    margin-top: 10vh;
   };
+
+  /* maybe take away contact form? below not showing up in chrome tools! */
+  #contact-form, #contact-text {
+    height: 10%;
+    width: auto;
+    padding-bottom: 5vh;
+  }
+
+  #contact-form {
+    margin: 0 0 50px 0;
+  }
 }
+
+/* change skills to be centered after ~730 */
+/* contact form needs to be adjusted for max width 720 */
+
+
