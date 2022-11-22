@@ -14,28 +14,30 @@ import css3 from '../images/icons/css3.png';
 import styledComponents from '../images/icons/styled-components.png';
 import heroku from '../images/icons/heroku.png';
 import git from '../images/icons/git.png';
+import agile from '../images/icons/agile.png';
 import procreate from '../images/icons/procreate.png';
 import management from '../images/icons/checklist.png';
 
 //TODO: make sep. icon component call during a map through arr
 
 const skillsArr = [
-  { id: 1, name: 'Javascript', icon: javascript },
-  { id: 2, name: 'React', icon: react },
-  { id: 3, name: 'Redux', icon: redux },
-  { id: 4, name: 'Node', icon: node },
-  { id: 5, name: 'RESTful API', icon: api },
-  { id: 6, name: 'Express', icon: express },
-  { id: 7, name: 'Sequelize', icon: sequelize },
-  { id: 8, name: 'Prisma', icon: prisma },
-  { id: 9, name: 'PostgreSQL', icon: postgres },
-  { id: 10, name: 'HTML', icon: html5 },
-  { id: 11, name: 'CSS', icon: css3 },
-  { id: 12, name: 'Styled Components', icon: styledComponents },
-  { id: 13, name: 'Heroku', icon: heroku },
-  { id: 14, name: 'Git', icon: git },
-  { id: 15, name: 'Procreate', icon: procreate },
-  { id: 16, name: 'Management', icon: management },
+  { name: 'Javascript', icon: javascript },
+  { name: 'React', icon: react },
+  { name: 'Redux', icon: redux },
+  { name: 'Node', icon: node },
+  { name: 'RESTful API', icon: api },
+  { name: 'Express', icon: express },
+  { name: 'Sequelize', icon: sequelize },
+  { name: 'Prisma', icon: prisma },
+  { name: 'PostgreSQL', icon: postgres },
+  { name: 'HTML', icon: html5 },
+  { name: 'CSS', icon: css3 },
+  { name: 'Styled Components', icon: styledComponents },
+  { name: 'Heroku', icon: heroku },
+  { name: 'Git', icon: git },
+  { name: 'Agile Methodology', icon: agile },
+  { name: 'Procreate', icon: procreate },
+  { name: 'Management', icon: management },
 ];
 
 const Skills = () => {
@@ -44,8 +46,8 @@ const Skills = () => {
       <div id="skills-body">
         <h1 className="font-link pink-txt">Skills</h1>
         <div id="skills-icons">
-          {skillsArr.map((skill) => (
-            <SkillsIcon key={skill.id} skill={skill} />
+          {skillsArr.map((skill, i) => (
+            <SkillsIcon key={i} skill={skill} />
           ))}
         </div>
       </div>
