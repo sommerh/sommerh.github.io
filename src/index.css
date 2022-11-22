@@ -454,14 +454,18 @@ nav a {
 }
 
 @media screen and (max-width: 730px) {
-  /* CONTACT */
-  #contact-body {
-    flex-direction: column-reverse;
-    margin-top: 10vh;
-  };
+/* PROJECTS */
+  #project-icons {
+    justify-content: space-around;
+  }
 
-  /* maybe take away contact form? below not showing up in chrome tools! */
-  #contact-form, #contact-text {
+  /* SKILLS */
+  #skills-icons {
+    justify-content: space-around;
+  }
+
+  /* CONTACT */
+  #contact-text {
     height: 10%;
     width: auto;
     padding-bottom: 5vh;
@@ -470,6 +474,11 @@ nav a {
   #contact-form {
     margin: 0 0 50px 0;
   }
+
+  #contact-body {
+    flex-direction: column-reverse;
+    margin-top: 10vh;
+  };
 }
 
 /* change skills to be centered after ~730 */
