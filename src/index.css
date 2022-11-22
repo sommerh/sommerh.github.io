@@ -1,3 +1,7 @@
+html {
+  scroll-behavior: smooth;
+}
+
 body {
   margin: 0;
   /* font-family: 'Imbue', serif; */
@@ -434,3 +438,4 @@ nav a {
 .contact-icon a svg path {
     color: rgb(48, 48, 48);
 }
+
