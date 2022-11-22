@@ -1,0 +1,27 @@
+{
+  "files": {
+    "main.css": "/static/css/main.f8b02b34.css",
+    "main.js": "/static/js/main.c653e0b8.js",
+    "static/js/787.d87b8530.chunk.js": "/static/js/787.d87b8530.chunk.js",
+    "static/media/bells-custom-worx.jpg": "/static/media/bells-custom-worx.952e7b30c3a74cb5b886.jpg",
+    "static/media/inhale.jpg": "/static/media/inhale.ae83157560b357086f0e.jpg",
+    "static/media/headshot.jpg": "/static/media/headshot.5d9b1fc3c1ed1cb5106a.jpg",
+    "static/media/creature-coders-border.jpg": "/static/media/creature-coders-border.1e7cdef4d8f6128b5b0c.jpg",
+    "static/media/redux.png": "/static/media/redux.1b4bb5fceb01b19da59d.png",
+    "static/media/react.png": "/static/media/react.8a6fc0a24a800d1e0f4a.png",
+    "static/media/wawdt.jpg": "/static/media/wawdt.011ad80c5ab03143b1fd.jpg",
+    "static/media/node.png": "/static/media/node.fc3bd1ec69d7a50e685a.png",
+    "static/media/postgres.png": "/static/media/postgres.346709d92d82791ad17d.png",
+    "static/media/prisma.png": "/static/media/prisma.be2ccefb7f79573d6177.png",
+    "static/media/sequelize.png": "/static/media/sequelize.e7adaa25f39264c50149.png",
+    "index.html": "/index.html",
+    "static/media/html5.svg": "/static/media/html5.f318c8b1d5945fa9adc827ae94849cb1.svg",
+    "main.f8b02b34.css.map": "/static/css/main.f8b02b34.css.map",
+    "main.c653e0b8.js.map": "/static/js/main.c653e0b8.js.map",
+    "787.d87b8530.chunk.js.map": "/static/js/787.d87b8530.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.f8b02b34.css",
+    "static/js/main.c653e0b8.js"
+  ]
+}
