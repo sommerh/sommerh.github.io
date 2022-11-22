@@ -25,7 +25,7 @@ body {
 .segment {
   min-height: 98vh;
   height: auto;
-  width: 100vw;
+  width: 100%;
   padding-top: 2vh;
 }
 
