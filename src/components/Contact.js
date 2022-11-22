@@ -53,4 +53,6 @@ const Contact = () => {
   );
 };
 
+// TODO: add designed and built footer
+
 export default Contact;
