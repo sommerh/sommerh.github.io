@@ -300,7 +300,7 @@ nav a {
   background-color: #ffffff;
   /* background-color: #EBCBD6; */
   border-top: 3px solid #56B4AA;
-  height: 100px;
+  /* height: 100px; */
   padding: 0 12px;
 }
 
@@ -328,7 +328,7 @@ nav a {
 
 .project-icon-container {
   display: flex;
-  flex-direction: row;
+  flex-flow: row wrap;
 }
 
 .project-icons {
@@ -340,7 +340,7 @@ nav a {
 .show-more {
   width: 127px;
   height: 32px;
-  margin: 0 0 15px 12px;
+  margin: 15px 12px;
   background-color: #EBCBD6;
   border: none;
   border-radius: 5px;
@@ -426,7 +426,7 @@ nav a {
 }
 
 #contact-form {
-  padding: 1.5rem;
+  padding: 5%;
   border: 2px solid black;
   margin: 0 50px 50px 0;
 }
@@ -593,6 +593,32 @@ nav a {
   }
 }
 
+@media screen and (max-width: 357px) {
+  .full-name {
+    font-size: 80px;
+  }
+
+  .project {
+    width: 85%;
+  }
+
+  .img-container {
+    width: 100%;
+    height: auto;
+  }
+
+  .project-img {
+    width: 100%;
+  }
+
+  .project-icons {
+    padding: 5px;
+  }
+
+  /* .project-icon-container {
+    width: 85%;
+  } */
+}
 
 /* potentially merge with 516 for code readability */
 /* @media screen and (max-width: 465) { */
