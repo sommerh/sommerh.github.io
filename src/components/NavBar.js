@@ -7,7 +7,7 @@ import React from 'react';
 const NavBar = () => {
   return (
     <nav id="navbar" className="font-link teal-bg">
-      <a href="#home" className="pink-txt-lt">
+      <a href="/" className="pink-txt-lt">
         {'</> HANNAH SOMMER'}
       </a>
       <a href="#about" className="white-txt">

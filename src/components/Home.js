@@ -2,7 +2,7 @@ import React from 'react';
 
 const Home = () => {
   return (
-    <div id="home" className="segment font-link teal-bg">
+    <div id="/" className="segment font-link teal-bg">
       <div id="home-body">
         <div className="logo">
           <p className="hannah full-name white-txt">
