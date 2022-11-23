@@ -186,6 +186,28 @@ nav a {
   font-size: 5vh;
 }
 
+.hamburger {
+  border: 0;
+  height: 67px;
+  width: 67px;
+  padding: 0.5rem;
+  border-radius: 50%;
+  background-color: #56B4AA;
+  cursor: pointer;
+  transition: background-color 0.2s ease-in-out;
+  position: absolute;
+  color: #FFFFFF;
+  /* top: 50%; */
+  right: 60px;
+  /* transform: translateY(50%); */
+  display: none;
+}
+
+/* unsure what this is doing */
+.hamburger:hover {
+  background-color: #2642af;
+}
+
 /* ABOUT ME */
 #about-body {
   display: flex;
