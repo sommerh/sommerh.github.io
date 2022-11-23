@@ -256,7 +256,7 @@ nav a {
     height: auto;
   }
 
- .project-bottom {
+.project-bottom {
   background-color: #ffffff;
   /* background-color: #EBCBD6; */
   border-top: 3px solid #56B4AA;
@@ -454,7 +454,12 @@ nav a {
 }
 
 @media screen and (max-width: 730px) {
-/* PROJECTS */
+  /* NAV */
+  nav {
+    border-radius: 0;
+  }
+
+  /* PROJECTS */
   #project-icons {
     justify-content: space-around;
   }
@@ -481,7 +486,6 @@ nav a {
   };
 }
 
-/* change skills to be centered after ~730 */
 /* contact form needs to be adjusted for max width 720 */
-
+/* TODO: 1167 max width make navbar font smaller */
 
