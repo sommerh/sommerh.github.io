@@ -2,9 +2,9 @@ import React from 'react';
 
 const Home = () => {
   return (
-    <div id="home" className="segment font-link teal-bg">
-      <div id="name-body">
-        <div className="name">
+    <div id="/" className="segment font-link teal-bg">
+      <div id="home-body">
+        <div className="logo">
           <p className="hannah full-name white-txt">
             HA<span className="pink-txt">NN</span>AH
           </p>

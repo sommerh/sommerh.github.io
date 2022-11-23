@@ -7,7 +7,7 @@ import React from 'react';
 const NavBar = () => {
   return (
     <nav id="navbar" className="font-link teal-bg">
-      <a href="#home" className="pink-txt">
+      <a href="/" className="pink-txt-lt">
         {'</> HANNAH SOMMER'}
       </a>
       <a href="#about" className="white-txt">
@@ -27,14 +27,3 @@ const NavBar = () => {
 };
 
 export default NavBar;
-
-//NOTES: below code makes name on navbar look like homepage
-// {
-//   /* <a href="#home" className="white-txt">
-// {'</> HA'}
-// <span className="pink-txt">NN</span>
-// {'AH SO'}
-// <span className="pink-txt-lt">MM</span>
-// {'ER'}
-// </a> */
-// }

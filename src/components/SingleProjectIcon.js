@@ -6,7 +6,7 @@ const SingleProjectIcon = ({ link, icon, access }) => {
     <>
       <a
         href={link}
-        aria-label={`View project ${access}`}
+        aria-label={`View project on ${access}`}
         className="project-icons"
         rel="noreferrer"
         target="_blank"
