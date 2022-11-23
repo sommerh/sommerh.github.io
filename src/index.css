@@ -35,6 +35,7 @@ body {
 
 .teal-bg {
   background-color: #56B4AA;
+  /* maybe change to  #2a9e92 for better contrast */
 }
 
 .yellow-bg {
@@ -174,17 +175,49 @@ nav {
 nav a:first-child {
   /* flex: 4; */
   /* justify-self: flex-start; */
-  margin-right: 17vw;
+  /* margin-right: 17vw; */
   /* padding-left: 4vw; */
+}
+
+.nav-menu ul {
+  display: flex;
+}
+.nav-menu li {
+  list-style-type: none;
 }
 
 nav a {
   /* flex: 1; */
-  margin: 0 4vw 0 4vw;
+  margin: 0 4vw;
   text-decoration: none;
   /* color: #FFFFFF; */
   font-size: 5vh;
 }
+
+.nav-menu {
+  margin-left: auto;
+}
+
+.hamburger {
+  border: 0;
+  height: 67px;
+  width: 75px;
+  /* padding: 0.5rem; */
+  border-radius: 50%;
+  background-color: #56B4AA;
+  cursor: pointer;
+  transition: background-color 0.2s ease-in-out;
+  position: absolute;
+  color: #FFFFFF;
+  /* top: 50%; */
+  right: 60px;
+  /* transform: translateY(50%); */
+  display: none;
+}
+
+/* .hamburger.expanded {
+  display: none;
+} */
 
 /* ABOUT ME */
 #about-body {
@@ -256,7 +289,7 @@ nav a {
     height: auto;
   }
 
- .project-bottom {
+.project-bottom {
   background-color: #ffffff;
   /* background-color: #EBCBD6; */
   border-top: 3px solid #56B4AA;
@@ -454,7 +487,51 @@ nav a {
 }
 
 @media screen and (max-width: 730px) {
-/* PROJECTS */
+  /* NAV */
+  nav {
+    border-radius: 0;
+  }
+
+  .nav-menu ul {
+    display: none;
+    flex-direction: column;
+    justify-content: space-around;
+    position: absolute;
+    width: 100%;
+    height: 35vh;
+    background-color: #56B4AA;
+    border-top: 4px solid #EBCBD6;
+    top: 7vh;
+    left: 0;
+    padding: 0;
+  }
+
+  .nav-menu.expanded ul {
+    display: flex;
+  }
+
+  .nav-menu li {
+    text-align: center;
+  }
+
+  .nav-menu a {
+    margin: 0;
+  }
+
+  /* bug: not current working */
+  .nav-menu li:hover {
+    background-color: #3a7972;
+  }
+
+  .hamburger {
+    display: block;
+  }
+
+  /* .hamburger.expanded {
+    display: block;
+  } */
+
+  /* PROJECTS */
   #project-icons {
     justify-content: space-around;
   }
@@ -481,7 +558,6 @@ nav a {
   };
 }
 
-/* change skills to be centered after ~730 */
 /* contact form needs to be adjusted for max width 720 */
-
+/* TODO: 1167 max width make navbar font smaller */
 
