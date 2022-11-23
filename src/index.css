@@ -27,7 +27,7 @@ body {
 
 
 .segment {
-  min-height: 98vh;
+  min-height: 102vh;
   height: auto;
   width: 100%;
   padding-top: 2vh;
@@ -81,7 +81,7 @@ body {
 #home-body {
   display: flex;
   justify-content: center;
-  align-self: center;
+  /* align-self: center; */
   padding-top: 10%;
 }
 
@@ -179,19 +179,26 @@ nav {
   /* padding-left: 4vw; */
 /* } */
 
+.nav-name {
+  font-size: 3rem;
+}
+
 .nav-menu ul {
   display: flex;
 }
 .nav-menu li {
   list-style-type: none;
+  font-size: 2rem;
 }
 
 nav a {
   /* flex: 1; */
   margin: 0 4vw;
   text-decoration: none;
+  width: 100%;
+  display: block;
   /* color: #FFFFFF; */
-  font-size: 5vh;
+  /* font-size: 5vh; */
 }
 
 .nav-menu {
@@ -419,7 +426,7 @@ nav a {
 }
 
 #contact-form {
-  padding: 30px;
+  padding: 1.5rem;
   border: 2px solid black;
   margin: 0 50px 50px 0;
 }
@@ -553,7 +560,7 @@ nav a {
     height: auto;
     margin: auto;
     margin-bottom: 50px;
-
+    border: 0;
   }
 
   #contact-body {
@@ -568,7 +575,42 @@ nav a {
     width: 88%;
     margin: auto;
   }
+
+  #home-body {
+    padding-top: 40%;
+  }
+
+  .full-name {
+    font-size: 90px;
+  }
+
+  .fse {
+    font-size: 55px;
+  }
+
+  .logo button {
+    width: 120%;
+  }
 }
+
+
+/* potentially merge with 516 for code readability */
+/* @media screen and (max-width: 465) { */
+  /* .logo {
+    width
+  } */
+  /* #home-body {
+    align-content: center;
+  } */
+
+  /* .full-name {
+    font-size: 50px;
+  } */
+
+  /* .hannah {
+
+  } */
+/* } */
 
 /* contact form needs to be adjusted for max width 720 */
 /* TODO: 1167 max width make navbar font smaller */
