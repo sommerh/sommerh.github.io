@@ -172,12 +172,12 @@ nav {
 }
 
 /* TODO: FIND BETTER WAY TO KEEP NAME TO RIGHTHAND SIDE, maybe padding 17vw on segment? */
-nav a:first-child {
+/* nav a:first-child { */
   /* flex: 4; */
   /* justify-self: flex-start; */
   /* margin-right: 17vw; */
   /* padding-left: 4vw; */
-}
+/* } */
 
 .nav-menu ul {
   display: flex;
@@ -210,7 +210,7 @@ nav a {
   position: absolute;
   color: #FFFFFF;
   /* top: 50%; */
-  right: 60px;
+  right: 4vw;
   /* transform: translateY(50%); */
   display: none;
 }
@@ -421,7 +421,7 @@ nav a {
 #contact-form {
   padding: 30px;
   border: 2px solid black;
-  margin-right: 50px;
+  margin: 0 50px 50px 0;
 }
 
 #contact-form form {
@@ -549,13 +549,25 @@ nav a {
   }
 
   #contact-form {
-    margin: 0 0 50px 0;
+    width: 90%;
+    height: auto;
+    margin: auto;
+    margin-bottom: 50px;
+
   }
 
   #contact-body {
     flex-direction: column-reverse;
     margin-top: 10vh;
   };
+}
+
+@media screen and (max-width: 516px) {
+  #headshot {
+    height: auto;
+    width: 88%;
+    margin: auto;
+  }
 }
 
 /* contact form needs to be adjusted for max width 720 */
