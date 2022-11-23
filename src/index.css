@@ -35,6 +35,7 @@ body {
 
 .teal-bg {
   background-color: #56B4AA;
+  /* maybe change to  #2a9e92 for better contrast */
 }
 
 .yellow-bg {
@@ -174,7 +175,7 @@ nav {
 nav a:first-child {
   /* flex: 4; */
   /* justify-self: flex-start; */
-  margin-right: 17vw;
+  /* margin-right: 17vw; */
   /* padding-left: 4vw; */
 }
 
@@ -186,11 +187,15 @@ nav a {
   font-size: 5vh;
 }
 
+#nav-menu {
+  margin-left: auto;
+}
+
 .hamburger {
   border: 0;
   height: 67px;
-  width: 67px;
-  padding: 0.5rem;
+  width: 75px;
+  /* padding: 0.5rem; */
   border-radius: 50%;
   background-color: #56B4AA;
   cursor: pointer;
@@ -203,10 +208,9 @@ nav a {
   display: none;
 }
 
-/* unsure what this is doing */
-.hamburger:hover {
+/* .hamburger:hover {
   background-color: #2642af;
-}
+} */
 
 /* ABOUT ME */
 #about-body {
@@ -479,6 +483,14 @@ nav a {
   /* NAV */
   nav {
     border-radius: 0;
+  }
+
+  #nav-menu {
+    display: none;
+  }
+
+  .hamburger {
+    display: block;
   }
 
   /* PROJECTS */

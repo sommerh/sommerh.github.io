@@ -27,18 +27,20 @@ const NavBar = () => {
           />
         </svg>
       </button>
-      <a href="#about" className="white-txt">
-        About
-      </a>
-      <a href="#projects" className="white-txt">
-        Projects
-      </a>
-      <a href="#skills" className="white-txt">
-        Skills
-      </a>
-      <a href="#contact" className="white-txt">
-        Contact
-      </a>
+      <div id="nav-menu">
+        <a href="#about" className="menu white-txt">
+          About
+        </a>
+        <a href="#projects" className="menu white-txt">
+          Projects
+        </a>
+        <a href="#skills" className="menu white-txt">
+          Skills
+        </a>
+        <a href="#contact" className="menu white-txt">
+          Contact
+        </a>
+      </div>
     </nav>
   );
 };
