@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.f8b02b34.css",
-    "main.js": "/static/js/main.06c779d5.js",
+    "main.css": "/static/css/main.5521cb6a.css",
+    "main.js": "/static/js/main.3a7a987e.js",
     "static/js/787.ce70b1aa.chunk.js": "/static/js/787.ce70b1aa.chunk.js",
     "static/media/bells-custom-worx.jpg": "/static/media/bells-custom-worx.952e7b30c3a74cb5b886.jpg",
     "static/media/inhale.jpg": "/static/media/inhale.ae83157560b357086f0e.jpg",
@@ -12,16 +12,17 @@
     "static/media/wawdt.jpg": "/static/media/wawdt.011ad80c5ab03143b1fd.jpg",
     "static/media/node.png": "/static/media/node.fc3bd1ec69d7a50e685a.png",
     "static/media/postgres.png": "/static/media/postgres.346709d92d82791ad17d.png",
+    "static/media/agile.png": "/static/media/agile.c948939cb6f6847a3847.png",
     "static/media/prisma.png": "/static/media/prisma.be2ccefb7f79573d6177.png",
     "static/media/sequelize.png": "/static/media/sequelize.e7adaa25f39264c50149.png",
     "index.html": "/index.html",
     "static/media/html5.svg": "/static/media/html5.f318c8b1d5945fa9adc827ae94849cb1.svg",
-    "main.f8b02b34.css.map": "/static/css/main.f8b02b34.css.map",
-    "main.06c779d5.js.map": "/static/js/main.06c779d5.js.map",
+    "main.5521cb6a.css.map": "/static/css/main.5521cb6a.css.map",
+    "main.3a7a987e.js.map": "/static/js/main.3a7a987e.js.map",
     "787.ce70b1aa.chunk.js.map": "/static/js/787.ce70b1aa.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.f8b02b34.css",
-    "static/js/main.06c779d5.js"
+    "static/css/main.5521cb6a.css",
+    "static/js/main.3a7a987e.js"
   ]
 }
