@@ -18,8 +18,6 @@ import agile from '../images/icons/agile.png';
 import procreate from '../images/icons/procreate.png';
 import management from '../images/icons/checklist.png';
 
-//TODO: make sep. icon component call during a map through arr
-
 const skillsArr = [
   { name: 'Javascript', icon: javascript },
   { name: 'React', icon: react },
