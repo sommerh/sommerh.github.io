@@ -199,7 +199,7 @@ nav {
 
 nav a {
   /* flex: 1; */
-  margin: 0 4vw;
+  margin: 0 3vw;
   text-decoration: none;
   width: 100%;
   display: block;
@@ -228,9 +228,9 @@ nav a {
   display: none;
 }
 
-/* .hamburger.expanded {
+.hamburger.expanded {
   display: none;
-} */
+}
 
 /* ABOUT ME */
 #about-body {
@@ -487,6 +487,8 @@ nav a {
     color: rgb(48, 48, 48);
 }
 
+
+/* FOOTER */
 footer {
   background-color: #56B4AA;
   width: 100%;
