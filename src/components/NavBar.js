@@ -1,9 +1,5 @@
 import React, { useState } from 'react';
 
-//TODO: make the section user clicks turn pink (window.location.href)
-//OR
-//make name pink and when user hovers increase size
-
 const NavBar = () => {
   const [isNavExpanded, setIsNavExpanded] = useState(false);
 
@@ -12,9 +8,6 @@ const NavBar = () => {
       <a href="/" className="pink-txt-lt nav-name">
         {'<hs />'}
       </a>
-      {/* <a href="/" className="pink-txt-lt">
-        {'</> HANNAH SOMMER'}
-      </a> */}
       <button
         className="hamburger"
         onClick={() => setIsNavExpanded(!isNavExpanded)}
@@ -57,6 +50,17 @@ const NavBar = () => {
           <li>
             <a href="#contact" className="menu white-txt">
               Contact
+            </a>
+          </li>
+          <li>
+            <a
+              href="https://drive.google.com/file/d/1SsyN7VrlL8YcN9O4iS9eBnWyf-870Azx/view?usp=sharing"
+              aria-label="View Hannah's Resume"
+              rel="noreferrer"
+              target="_blank"
+              className="menu white-txt"
+            >
+              Resume
             </a>
           </li>
         </ul>
