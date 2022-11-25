@@ -419,6 +419,7 @@ nav a {
   display: flex;
   flex-direction: row;
   margin: 20vh 6vw 0 6vw;
+  /* position: relative; */
   /* justify-content: space-around; */
 }
 
@@ -484,6 +485,18 @@ nav a {
 
 .contact-icon a svg path {
     color: rgb(48, 48, 48);
+}
+
+footer {
+  background-color: #56B4AA;
+  width: 100%;
+  padding: 5px 0;
+}
+
+footer p {
+  color: #FFFFFF;
+  text-align: center;
+  margin: 0;
 }
 
 /* RESPONSIVE ADJUSTMENTS */
