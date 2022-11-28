@@ -23,7 +23,7 @@ const projects = [
       'PostgreSQL',
     ],
     github: 'https://github.com/pigeon-programmers/creature-coders-web',
-    site: 'https://creature-coders.herokuapp.com/',
+    site: 'https://creature-coders.onrender.com/',
     youtube: 'https://www.youtube.com/watch?v=I6Ia7ONRNME',
   },
   {
@@ -55,7 +55,7 @@ const projects = [
       'PostgreSQL',
     ],
     github: 'https://github.com/GH2202-Team-Worx/Worx',
-    site: 'https://bells-custom-worx.herokuapp.com/',
+    site: 'https://bells-custom-worx.onrender.com/',
     youtube: null,
   },
   {
