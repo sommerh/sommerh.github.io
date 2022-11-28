@@ -56,8 +56,8 @@ const ContactForm = () => {
       {error && <ContactError type={error} />}
       {sent && (
         <p>
-          <b>Thank you for your message!</b> I will get back to you within 1-3
-          business days.
+          <b>Thank you for your message!</b> I will get back to you as soon as I
+          can.
         </p>
       )}
       <form onSubmit={handleSubmit}>
