@@ -54,7 +54,7 @@ const NavBar = () => {
           </li>
           <li>
             <a
-              href="https://drive.google.com/file/d/1nBFSR3DEkCe3Kf0LSqAFbKuRJvaS3Ih9/view?usp=sharing"
+              href="https://drive.google.com/file/d/1uOUlRrz2QQaTxiVci1bEAwHb20gaWSqu/view?usp=sharing"
               aria-label="View Hannah's Resume"
               rel="noreferrer"
               target="_blank"
