@@ -13,6 +13,7 @@ import html5 from '../images/icons/html5.svg';
 import css3 from '../images/icons/css3.png';
 import styledComponents from '../images/icons/styled-components.png';
 import heroku from '../images/icons/heroku.png';
+import python from '../images/icons/python.png';
 import git from '../images/icons/git.png';
 import agile from '../images/icons/agile.png';
 import procreate from '../images/icons/procreate.png';
@@ -31,6 +32,7 @@ const skillsArr = [
   { name: 'HTML', icon: html5 },
   { name: 'CSS', icon: css3 },
   { name: 'Styled Components', icon: styledComponents },
+  { name: 'Python', icon: python },
   { name: 'Heroku', icon: heroku },
   { name: 'Git', icon: git },
   { name: 'Agile Methodology', icon: agile },
