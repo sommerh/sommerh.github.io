@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.84845bb1.css",
-    "main.js": "/static/js/main.03d09563.js",
+    "main.js": "/static/js/main.c1f7d89a.js",
     "static/js/787.ce70b1aa.chunk.js": "/static/js/787.ce70b1aa.chunk.js",
     "static/media/bells-custom-worx.jpg": "/static/media/bells-custom-worx.952e7b30c3a74cb5b886.jpg",
     "static/media/inhale.jpg": "/static/media/inhale.ae83157560b357086f0e.jpg",
@@ -13,16 +13,17 @@
     "static/media/node.png": "/static/media/node.fc3bd1ec69d7a50e685a.png",
     "static/media/postgres.png": "/static/media/postgres.346709d92d82791ad17d.png",
     "static/media/agile.png": "/static/media/agile.c948939cb6f6847a3847.png",
+    "static/media/python.png": "/static/media/python.ce0857834e7aec373708.png",
     "static/media/prisma.png": "/static/media/prisma.be2ccefb7f79573d6177.png",
     "static/media/sequelize.png": "/static/media/sequelize.e7adaa25f39264c50149.png",
     "index.html": "/index.html",
     "static/media/html5.svg": "/static/media/html5.f318c8b1d5945fa9adc827ae94849cb1.svg",
     "main.84845bb1.css.map": "/static/css/main.84845bb1.css.map",
-    "main.03d09563.js.map": "/static/js/main.03d09563.js.map",
+    "main.c1f7d89a.js.map": "/static/js/main.c1f7d89a.js.map",
     "787.ce70b1aa.chunk.js.map": "/static/js/787.ce70b1aa.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.84845bb1.css",
-    "static/js/main.03d09563.js"
+    "static/js/main.c1f7d89a.js"
   ]
 }
